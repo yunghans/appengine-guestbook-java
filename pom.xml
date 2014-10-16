@@ -87,10 +87,6 @@
                 <groupId>com.google.appengine</groupId>
                 <artifactId>appengine-maven-plugin</artifactId>
                 <version>${appengine.target.version}</version>
-                <configuration>
-                   <fullScanSeconds>1</fullScanSeconds>
-                   <server>preview.appengine.google.com</server>
-                </configuration>
             </plugin>
             <plugin>
               <artifactId>maven-compiler-plugin</artifactId>
